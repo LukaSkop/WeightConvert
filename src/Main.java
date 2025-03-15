@@ -19,13 +19,13 @@ public class Main {
             System.out.print("Enter weight in lbs: ");
             weight = scanner.nextDouble();
             newWeight = weight * 0.453;
-            System.out.printf("The new weight is %.2f", newWeight);
+            System.out.printf("The new weight is %.2f kgs", newWeight);
         }
         else if (choice == 2) {
             System.out.print("Enter weight in kgs: ");
             weight = scanner.nextDouble();
             newWeight = weight * 2.205;
-            System.out.printf("The new weight is %.2f", newWeight);
+            System.out.printf("The new weight is %.2f lbs", newWeight);
         }
         else{
             System.out.println("That was not a valid choice");
